@@ -1,2 +1,0 @@
-"use strict";(self["webpackChunksite_test2"]=self["webpackChunksite_test2"]||[]).push([[443],{74484:function(t,e,s){s.r(e),s.d(e,{default:function(){return r}});var n=function(){var t=this,e=t.$createElement,s=t._self._c||e;return s("div",{staticClass:"about"},[s("h1",[t._v("This is an about page")]),s("b-card",[s("b-button")],1)],1)},u=[],a=s(1001),l={},i=(0,a.Z)(l,n,u,!1,null,null,null),r=i.exports}}]);
-//# sourceMappingURL=about-legacy.6c899248.js.map
