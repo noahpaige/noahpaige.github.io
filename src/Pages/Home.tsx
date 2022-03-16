@@ -8,6 +8,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Container from '@mui/material/Container';
+import React from 'react';
 
 const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 

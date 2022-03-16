@@ -34,15 +34,15 @@ export default function Album() {
           <Typography variant="h6" sx={{fontSize: 50}} color="inherit" noWrap>
             NOAH PAIGE
           </Typography>
-          <Button component={RouterLink} variant="text" color="secondary" to="/">
+          <Button component={RouterLink} variant="text" sx={{color: 'white'}} to="/">
             <Typography variant="h6" color="inherit" noWrap>Home</Typography>
           </Button>
-          <Button component={RouterLink} variant="text" color="secondary" to="/blogs">
+          <Button component={RouterLink} variant="text" sx={{color: 'white'}} to="/blogs">
             <Typography variant="h6" color="inherit" noWrap>Blogs</Typography>
           </Button>
-          <Link component={RouterLink} sx={{color: 'primary[200]'}} to="/contact">
-          <Typography variant="h3" color="primary-light" noWrap>Contact</Typography>
-          </Link>
+          <Button component={RouterLink} variant="text" sx={{color: 'white'}} to="/contact">
+          <Typography variant="h6" color="primary-light" noWrap>Contact</Typography>
+          </Button>
         </Toolbar>
       </AppBar>
 
