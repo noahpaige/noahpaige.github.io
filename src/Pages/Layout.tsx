@@ -12,7 +12,6 @@ import {
   MemoryRouter,
 } from 'react-router-dom';
 import { StaticRouter } from 'react-router-dom/server';
-import Link from '@mui/material/Link';
 
 
 function Router(props: { children?: React.ReactNode }) {
@@ -29,12 +28,12 @@ export default function Album() {
   return (
     <div>
       <AppBar position="relative">
-        <Toolbar>
+        <Toolbar >
           <SurfingIcon sx={{ mr: 2, fontSize: 50 }} />
           <Typography variant="h6" sx={{fontSize: 50}} color="inherit" noWrap>
             NOAH PAIGE
           </Typography>
-          <Button component={RouterLink} variant="text" sx={{color: 'white'}} to="/">
+          <Button component={RouterLink} variant="text" sx={{ color: 'white', marginLeft: 'auto'}} to="/">
             <Typography variant="h6" color="inherit" noWrap>Home</Typography>
           </Button>
           <Button component={RouterLink} variant="text" sx={{color: 'white'}} to="/blogs">

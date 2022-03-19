@@ -13,7 +13,13 @@ import Blogs from "./Pages/Blogs";
 import Contact from "./Pages/Contact";
 import NoPage from "./Pages/NoPage";
 
-const theme = createTheme();
+const theme = createTheme(
+  {
+    palette: {
+      mode: 'dark',
+    },
+  }
+);
 
 
 ReactDOM.render(
